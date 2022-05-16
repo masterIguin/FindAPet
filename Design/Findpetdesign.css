@@ -82,6 +82,7 @@ a {
     text-decoration: none;
 }
 a.buttons {
+    font-family: helvetica;
     color: whitesmoke;
     text-decoration: none;
     padding: 10px;
@@ -138,8 +139,8 @@ footer {
     padding: 3px;
     background-color: DarkSalmon;
     color: white;
-  }
-  footer {
+}
+footer {
     background-color: #838b64;
     margin: 10px auto;
 
