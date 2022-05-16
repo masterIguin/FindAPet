@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+    <script language = "javascript">
+        function displayText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+        function undisplayText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+	<title>Find a Pet</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 60px;
+			height: 60px;
+		}
+	    body {
+            background-image: url("../logo, bg, icon/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 110%;
+            background-attachment: fixed;
+        }
+	</style>
+    <link rel="icon" href="../logo, bg, icon/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="../Design/Findpetdesign.css">
+	<!--IGUIN, SEAN MICHAEL-->
+	<!--January 24, 2022-->
+    <div class="nav">
+        <div class="header">
+            <img class="header" src="../logo, bg, icon/lovestray.png" alt="pet-adopt-icon">
+        </div>
+        <div align="right">
+            <a class="buttons" href="">HOME</a>
+            <a class="buttons" href="">ABOUT US</a>
+            <a class="buttons" href="../Findpet.html">FIND A PET</a>
+            <a class="buttons" href="">OUR PETS</a>
+            <a class="buttons" href="">CONTACT US</a>
+            <a class="buttons" href="">FAQs</a>
+            <a class="buttons" href="">AUTHORS</a>
+            <a class="buttons" href=""><img src="../logo, bg, icon/search.png" alt="search" class="icon"></a>
+        </div>
+    </div>
+
+    <h1 class="pets" align="center">DOG SECTION</h1>
+    
+    <div align="center">
+        <img class="dogselection" src="../Dogs/dogs.png" alt="dogs" usemap="#dogs">
+        <map name="dogs">
+            <area shape="rect" coords="12, 5, 170, 215" href="Dogs/Dog1.html" alt="dog1" onmouseover="displayText('Hi! My name is Ryeonggu!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="180, 5, 340, 215" href="Dogs/Dog2.html" alt="dog2" onmouseover="displayText('Hi! My name is Pluto!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="350, 5, 505, 215" href="Dogs/Dog3.html" alt="dog3" onmouseover="displayText('Hi! My name is Jim!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="515, 5, 675, 215" href="Dogs/Dog4.html" alt="dog4" onmouseover="displayText('Hi! My name is Matilda!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="10, 23O, 170, 450" href="Dogs/Dog5.html" alt="dog5" onmouseover="displayText('Hi! My name is Elsa!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="170, 230, 335 450" href="Dogs/Dog6.html" alt="dog6" onmouseover="displayText('Hi! My name is Dahyun!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="350, 230, 505, 450" href="Dogs/Dog7.html" alt="dog7" onmouseover="displayText('Hi! My name is Fela!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="520, 230, 660, 335" href="Dogs/Dog8.html" alt="dog8" onmouseover="displayText('Hi! My name is Ally!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="525, 340, 650, 450" href="Dogs/Dog9.html" alt="dog9" onmouseover="displayText('Hi! My name is Hope!')" onmouseout="undisplayText('')">
+        </map>
+        <div class="center">
+            <div align="right" style="width: 80%">
+                <a class="buttons1" href="../Findpet.html">Back</a>
+            </div>
+            <div align="center" style="margin: 0%;">
+                <p class="pets" id="desc"></p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+    <footer>
+        <div>
+            <h2>Contact Info</h2>
+            <p>Address: Taft Ave Ext, Pasay, Metro Manila</p>
+            <p>Email Address: PetAdoption@example.com</p>
+            <p>Opening Hours: 7:00 AM - 8:00 PM</p>
+            <p>Monday - Sunday</p>
+            <p>Mobile Number: +63 9123456789</p>
+
+
+        </div>
+        <i class="divider"></i>
+    
+        <div>
+            <h2>Information</h2>
+            <a href="">Adopt a Pet</a>
+            <br><br>
+            <a href="">Send a Pet</a>
+            <br><br>
+            <a href="">Pet Categories</a>
+            <br><br>
+            <a href="">Pet Ages</a>
+            <br><br>
+            <a href="">Adoption Form</a>
+            <br><br>
+            <a href="">Sending Form</a>
+
+
+        </div>
+        <i class="divider"></i>
+        <div>
+            <h2>About US</h2>
+            
+
+        </div>
+    </footer>
+</body>
+</html>

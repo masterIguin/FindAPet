@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+    <script language = "javascript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+            function dissolveText(txt) {
+                document.getElementById("desc").innerHTML=txt;
+            }
+    </script>
+	<title>Find a Pet</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 60px;
+			height: 60px;
+		}
+        .header h1 {
+			top: 8px;
+			left: 10px;
+			vertical-align: top;
+			position: absolute;
+			margin-left: 100px;
+            color: rgb(134, 216, 134);
+		}
+	    body {
+            background-image: url("logo, bg, icon/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 110%;
+            background-attachment: fixed;
+        }
+	</style>
+    <link rel="icon" href="logo, bg, icon/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="Design/Findpetdesign.css">
+	<!--IGUIN, SEAN MICHAEL-->
+	<!--January 24, 2022-->
+    <div class="nav">
+        <div class="header">
+            <img class="header" src="logo, bg, icon/lovestray.png" alt="icon">
+        </div>
+        <div align="right">
+            <a class="buttons" href="">HOME</a>
+            <a class="buttons" href="">ABOUT US</a>
+            <a class="buttons" href="Findpet.html">FIND A PET</a>
+            <a class="buttons" href="">OUR PETS</a>
+            <a class="buttons" href="">CONTACT US</a>
+            <a class="buttons" href="">FAQs</a>
+            <a class="buttons" href="">AUTHORS</a>
+            <a class="buttons" href=""><img src="logo, bg, icon/search.png" alt="search" class="icon"></a>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <div align="center">
+        <a href="HTML/Dogs.html"><img class="pets1" src="logo, bg, icon/dog logo.jpg" alt="dog" onmouseover="writeText('DOGS')" onmouseout="dissolveText('')"></a>
+        <a href="HTML/Cats.html"><img class="pets2" src="logo, bg, icon/cat logo.png" alt="cat" onmouseover="writeText('CATS')" onmouseout="dissolveText('')"></a>
+        <h1 class="pets" id="desc"></h1>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+    <footer>
+        <div>
+            <h2>Contact Info</h2>
+            <p>Address: Taft Ave Ext, Pasay, Metro Manila</p>
+            <p>Email Address: PetAdoption@example.com</p>
+            <p>Opening Hours: 7:00 AM - 8:00 PM</p>
+            <p>Monday - Sunday</p>
+            <p>Mobile Number: +63 9123456789</p>
+
+
+        </div>
+        <i class="divider"></i>
+    
+        <div>
+            <h2>Information</h2>
+            <a href="">Adopt a Pet</a>
+            <br><br>
+            <a href="">Send a Pet</a>
+            <br><br>
+            <a href="">Pet Categories</a>
+            <br><br>
+            <a href="">Pet Ages</a>
+            <br><br>
+            <a href="">Adoption Form</a>
+            <br><br>
+            <a href="">Sending Form</a>
+
+
+        </div>
+        <i class="divider"></i>
+        <div>
+            <h2>About US</h2>
+            
+
+        </div>
+    </footer>
+</body>
+</html>
